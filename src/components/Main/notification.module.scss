@@ -1,0 +1,14 @@
+.wrapper {
+	position: fixed;
+	right: 50%;
+	transform: translate(50%);
+	top: 20px;
+	min-width: 100px;
+	max-width: 320px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 15px;
+	color: #fff;
+	z-index: 99999;
+	cursor: pointer;
+}

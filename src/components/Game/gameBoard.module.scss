@@ -1,0 +1,37 @@
+// .wrapper {
+// 	display: flex;
+// 	flex-direction: column;
+// 	align-items: center;
+// 	justify-content: center;
+// 	gap: 20px;
+// 	height: 100vh;
+// }
+// .board_container {
+// 	background-color: #065b61;
+// 	border-radius: 2px;
+// 	border: 5px solid #065b61;
+// }
+.line {
+	display: flex;
+}
+.cell {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin: 1px;
+	text-align: center;
+	border-radius: 2px;
+	background: #157172;
+	object-fit: contain;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	box-shadow: -2px -3px 4px 0px #000 inset;
+	&:hover {
+		background: #23b6b8;
+	}
+}
+.bomb {
+	width: 70%;
+}
